@@ -41,7 +41,7 @@ public class Currency extends AppCompatActivity {
     Dialog toDialog;
     Button convertButton;
     String convertFromValue, convertToValue, conversionValue;
-    String[] country = {"AFN", "EUR", "AMD", "AZN", "BHD","BDT","BTN","GBP","BND", "KHR", "CNY", "USD","GEL","HKD","INR","IDR","IRR","IQD","ILS","JPY","JOD","KZT","KWD","KGS","LAK","LBP","MOP","MYR","MVR","MNT","MMK","NPR","TRY","KPW","OMR","PKR","PHP","SGD","KRW","LKR","TWD","TJS","THB","TMT","AED","UZS","VND","YER","QAR","RUB"}; //TODO
+    String[] country = {"AFN", "EUR", "AMD", "AZN", "BHD","BDT","BTN","GBP","BND", "KHR", "CNY", "USD","GEL","HKD","INR","IDR","IRR","IQD","ILS","JPY","JOD","KZT","KWD","KGS","LAK","LBP","MOP","MYR","MVR","MNT","MMK","NPR","TRY","KPW","OMR","PKR","PHP","SGD","KRW","LKR","TWD","TJS","THB","TMT","AED","UZS","VND","YER","QAR","RUB"};
 
 
     @Override
