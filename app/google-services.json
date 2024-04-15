@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "826298255787",
+    "project_id": "translatorapp-99c1d",
+    "storage_bucket": "translatorapp-99c1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826298255787:android:8c93a65cd2dc54e36d2aee",
+        "android_client_info": {
+          "package_name": "com.example.translateapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLxxKyoPCEQJzj4_v7W0CZmAXjjB1bfOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826298255787:android:d5336f10738fa5606d2aee",
+        "android_client_info": {
+          "package_name": "com.example.traveltolive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLxxKyoPCEQJzj4_v7W0CZmAXjjB1bfOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826298255787:android:504038b4bd6deaf86d2aee",
+        "android_client_info": {
+          "package_name": "com.example.traveltoliveapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLxxKyoPCEQJzj4_v7W0CZmAXjjB1bfOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Shopping1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/amari_bangkok"
+                    android:foreground="@drawable/image_gradient"/>
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    android:backgroundTint="@color/green"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/cocogoose_light"
+                    android:textSize="14sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amari Bangkok Hotel"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="38sp"
+                    android:fontFamily="@font/poppins_semibold"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_background"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-80dp"
+                    app:cardCornerRadius="25sp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical"
+                        android:padding="12dp"
+                        android:paddingBottom="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/layoutOne"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                android:orientation="horizontal">
+
+                                <TextView
+
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_weight="1.0"
+                                    android:textSize="18sp"
+                                    android:text="Type"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                                <TextView
+
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:text="Open"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_semibold"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/layoutTwo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/convertFromTitle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_weight="1.0"
+                                    android:textSize="18sp"
+                                    android:text="Accommodation"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                                <TextView
+                                    android:id="@+id/convertToTitle"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:text="24 hour"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/visit"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_weight="1.0"
+                                    android:textSize="18sp"
+                                    android:text="Visit"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                                <TextView
+                                    android:id="@+id/Transportation"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:text="Transportation"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_semibold"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/linearlayout2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_weight="1.0"
+                                    android:textSize="18sp"
+                                    android:text="Free"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                                <TextView
+
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:text="Train,walk,tuk-tuk/cab"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout01"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="Location:"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                                <TextView
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.0"
+                                    android:text="999/9 Rama I Rd Pathum Wan, Bangkok 10330 Thailand"
+                                    android:textSize="18sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout02"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAlignment="center"
+                                    android:layout_weight="1.0"
+                                    android:text="How to get there:"
+                                    android:textSize="28sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="BTS SKYTRAIN STOP : "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text=" - Chid Lom BTS Skytrain Station "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text=" - Siam BTS Skytrain Station "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout03"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAlignment="center"
+                                    android:layout_weight="1.0"
+                                    android:text="Highlight Store:"
+                                    android:textSize="28sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_semibold"/>
+
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text=" - Boots "
+                                    android:textSize="24sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="Best deals in town for skincare, body care , hair care and a lot more.  "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="@string/link"
+                                    android:textSize="20sp"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/poppins_regular"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout04"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/halal"
+                                        android:layout_marginLeft="30dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_weight="1.0"
+                                        android:text=" Food Nearby:"
+                                        android:textSize="28sp"
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_semibold"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text=" - Boots "
+                                    android:textSize="24sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="Best deals in town for skincare, body care , hair care and a lot more.  "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_regular"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="vertical"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout05"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1.0"
+                                        android:text="Stay Nearby:"
+                                        android:textAlignment="center"
+                                        android:textSize="28sp"
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_semibold"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text=" - Boots "
+                                    android:textSize="24sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="Best deals in town for skincare, body care , hair care and a lot more.  "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_regular"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/linearLayout06"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1.0"
+                                        android:text="Must-go Nearby:"
+                                        android:textAlignment="center"
+                                        android:textSize="28sp"
+                                        android:textColor="@color/black"
+                                        android:fontFamily="@font/poppins_semibold"/>
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text=" - Boots "
+                                    android:textSize="24sp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    android:fontFamily="@font/poppins_regular"/>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_weight="1.0"
+                                    android:text="Best deals in town for skincare, body care , hair care and a lot more.  "
+                                    android:textSize="20sp"
+                                    android:textColor="@color/hintgrey"
+                                    android:fontFamily="@font/poppins_regular"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

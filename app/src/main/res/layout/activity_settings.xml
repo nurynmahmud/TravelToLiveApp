@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white"
+    android:orientation="vertical"
+    tools:context=".Settings">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textAlignment="center"
+            android:textSize="38dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/madetommy_bold"
+            android:layout_gravity="center"
+            android:textColor="@color/green"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/baseline_settings_24"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/lightgreen">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Manual"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_semibold"
+                android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Contact Us:"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:fontFamily="@font/opensans_regular"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Email :"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_regular"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/gmail"
+                android:textAlignment="center"
+
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppins_regular"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="NO. :"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="0166500025"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/baseline_phone_24"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/white"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>

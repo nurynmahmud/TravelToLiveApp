@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Find out more about places"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="25dp"
+        android:text="Hanoi , Vietnam"
+        android:textColor="@color/white"
+        android:fontFamily="@font/cocogoose_light"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnExplore"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/green"
+        android:gravity="center"
+        android:text="Explore "
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

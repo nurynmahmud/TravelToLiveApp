@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Travel To Live</string>
+    <string name="link">
+        Click <a href="http://www.centralworld.co.th/"> here </a> to  know more.
+    </string>
+    <string name="gmail">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfnbWkVzSnkLNfTKbnHqnLpXRRGLPzMjRFMPWKlWrbTrNrnTSsNldzxkZVWRFtCPPRgTsB"> kl2207011680@student.kuptm.edu.my </a> .
+    </string>
+</resources>
